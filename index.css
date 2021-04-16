@@ -339,9 +339,9 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
- text-align: center;
- color: white;   
+color: white;   
 }
+
 .activities-img .img-content
 {
     position: absolute;
@@ -352,26 +352,31 @@ position: relative;
 .activities
 {
     margin:auto;
+    text-align: center;
 }
 .activities h2
 {
-    background-color: violet;
+    margin-top: 5%;
+    text-align: center;
+    font-family: Tangerine;
+    font-size: 45px;
     text-align: center;
 }
-.activities .row
-{
-    margin:10px;
-    background-color: red;
-}
+
 .activities .images
 {
+    margin:auto;
+    margin-bottom:10px; 
+
     width:30%;
     display: inline-block;
-    background-color: white;
 }
 .activities .images img
 {
     width: 100%;
     height: 200px;
 }
-
+.activities .images .img-caption
+{
+    padding-left: 10px;
+}
