@@ -349,3 +349,28 @@ position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.activities
+{
+    margin:auto;
+}
+.activities h2
+{
+    background-color: violet;
+    text-align: center;
+}
+.activities .row
+{
+    margin:10px;
+    background-color: red;
+}
+.activities .images
+{
+    width:30%;
+    display: inline-block;
+    background-color: white;
+}
+.activities .images img
+{
+    width: 100%;
+    height: 200px;
+}
